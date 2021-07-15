@@ -12,9 +12,9 @@ class HolidaysTableSeeder extends Seeder
      */
     public function run()
     {
-        $holiday = config('holidays');
+        $holidays = config('Holiday');
 
-        foreach ($holiday as $item) {
+        foreach ($holidays as $item) {
 
             $holiday = new Holiday();
 

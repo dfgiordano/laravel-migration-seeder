@@ -1,13 +1,13 @@
 <?php
 
-$holidays = [
+$holiday = [
     [
         "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/50/3a/84/grand-hotel-amrath-amsterdam.jpg?w=1200&h=-1&s=1",
         "location" => "Grand Hotel Amrâth,Prince Hendrikkasde 108,1011 AK",
         "tipology" => "Hotel",
         "city" => "Amsterdam",
         "country" => "Netherlands",
-        "price" => "200,00",
+        "price" => 200,
         "vote" => "8",
         "available" => "1",
         "email" => "hotelamrath@gmail.com",
@@ -19,7 +19,7 @@ $holidays = [
         "tipology" => "Hotel",
         "city" => "Barcelona",
         "country" => "Spain",
-        "price" => "120,00",
+        "price" => 120,
         "vote" => "8",
         "available" => "1",
         "email" => "barcelonaprincess@gmail.com",
@@ -31,7 +31,7 @@ $holidays = [
         "tipology" => "Hotel",
         "city" => "Londons",
         "country" => "England",
-        "price" => "70",
+        "price" => 70,
         "vote" => "6",
         "available" => "1",
         "email" => "centralparkhotel@gmail.com",
@@ -43,10 +43,12 @@ $holidays = [
         "tipology" => "Apartment",
         "city" => "Lisbon",
         "country" => "Portugal",
-        "price" => "180,00",
+        "price" => 180,
         "vote" => "9",
         "available" => "1",
         "email" => "chiadoartyflats@gmail.com",
         "telephone" => "1234567890",
     ]
     ];
+
+return $holiday;
